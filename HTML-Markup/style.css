@@ -49,6 +49,15 @@ li {
   font-size: 18px;
 }
 
+.related {
+  list-style: none;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
 #copyright {
   font-size: 16px;
 }
