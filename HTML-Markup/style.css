@@ -69,6 +69,10 @@ aside {
   font-size: 18px;
 }
 
+.first-li {
+  font-weight: bold;
+}
+
 .related {
   list-style: none;
 }
