@@ -57,6 +57,27 @@ li:nth-child(even) {
   /* color: red; */
 }
 
+/* Styling Links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
 /* footer p {
   font-size: 16px;
 } */
@@ -68,7 +89,8 @@ body {
   /* background-color: blue; */
 }
 
-article p:last-child {
+/* Misconception: this won't work */
+article p:first-child {
   color: red;
 }
 
