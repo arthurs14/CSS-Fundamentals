@@ -43,6 +43,11 @@ li {
   font-size: 20px;
 }
 
+/* Psuedo-class */
+li:first-child {
+  font-weight: bold;
+}
+
 /* footer p {
   font-size: 16px;
 } */
@@ -69,9 +74,9 @@ aside {
   font-size: 18px;
 }
 
-.first-li {
+/* .first-li {
   font-weight: bold;
-}
+} */
 
 .related {
   list-style: none;
