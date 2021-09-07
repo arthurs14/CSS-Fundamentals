@@ -140,5 +140,5 @@ aside {
 }
 
 footer p {
-  color: green;
+  color: green !important;
 }
