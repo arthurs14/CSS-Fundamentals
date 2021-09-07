@@ -3,6 +3,8 @@ body {
   line-height: 1.4;
 }
 
+/* PRODUCT */
+
 .product {
   border: 10px solid black;
 }
@@ -43,7 +45,7 @@ body {
   list-style: square;
 }
 
-/* Button */
+/* BUTTON */
 .add-cart {
   background-color: black;
   border: none;
