@@ -1,11 +1,7 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
+body {
+  /* background-color: blue; */
   color: #444;
+  font-family: sans-serif;
 }
 
 h1,
@@ -85,9 +81,6 @@ a:active {
 /* article header p {
   font-style: italic;
 } */
-body {
-  /* background-color: blue; */
-}
 
 /* Misconception: this won't work */
 article p:first-child {
