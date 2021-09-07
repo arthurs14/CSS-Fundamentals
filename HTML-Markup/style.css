@@ -1,7 +1,11 @@
+/* * {
+
+} */
+
 body {
-  /* background-color: blue; */
   color: #444;
   font-family: sans-serif;
+  border-top: 10px solid #1098ad;
 }
 
 h1,
@@ -135,3 +139,7 @@ aside {
 footer p {
   color: green !important;
 } */
+
+nav {
+  font-size: 18px;
+}
