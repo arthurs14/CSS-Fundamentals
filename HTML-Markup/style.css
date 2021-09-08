@@ -10,12 +10,9 @@ body {
   border-top: 10px solid #1098ad;
 }
 
-nav {
-  font-size: 18px;
-}
-
-article {
-  margin-bottom: 60px;
+.container {
+  width: 800px;
+  margin: 0 auto;
 }
 
 .main-header {
@@ -28,6 +25,13 @@ article {
   height: 80px;
 }
 
+nav {
+  font-size: 18px;
+}
+
+article {
+  margin-bottom: 60px;
+}
 .post-header {
   margin-bottom: 40px;
 }
@@ -38,6 +42,7 @@ aside {
   border-bottom: 5px solid #1098ad;
   padding: 50px 0;
   width: 500px;
+  margin: 0 auto;
 }
 
 h1,
