@@ -8,6 +8,20 @@ body {
   border-top: 10px solid #1098ad;
 }
 
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
 h1,
 h2,
 h3 {
@@ -41,6 +55,7 @@ p {
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 /* Psuedo-class */
@@ -50,6 +65,7 @@ li:first-child {
 
 li:last-child {
   font-style: italic;
+  margin-bottom: 0;
 }
 
 /* can use numbers or odd or even */
@@ -89,16 +105,6 @@ a:active {
 /* Misconception: this won't work */
 article p:first-child {
   color: red;
-}
-
-aside {
-  background-color: #f7f7f7;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-}
-
-.main-header {
-  background-color: #f7f7f7;
 }
 
 #author {
