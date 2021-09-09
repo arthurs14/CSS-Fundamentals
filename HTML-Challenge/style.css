@@ -8,15 +8,12 @@ body {
   line-height: 1.4;
 }
 
-.container {
-  width: 825px;
-  margin: 0px auto;
-}
-
 /* PRODUCT */
 
 .product {
-  border: 5px solid black;
+  border: 4px solid black;
+  width: 825px;
+  margin: 50px auto;
 }
 
 .product-title {
@@ -32,6 +29,8 @@ body {
 }
 
 .shipping {
+  font-size: 16px;
+  font-weight: bold;
   text-transform: uppercase;
   color: #777;
   margin-bottom: 15px;
@@ -88,8 +87,8 @@ li:last-child {
   text-transform: uppercase;
   cursor: pointer;
   width: 100%;
-  height: 35px;
-  border-top: black 3px solid;
+  padding: 15px;
+  border-top: black 4px solid;
 }
 
 .add-cart:hover {
