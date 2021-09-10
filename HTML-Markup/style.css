@@ -156,6 +156,19 @@ button {
   right: 50px;
 }
 
+/* Psuedo Elements use :: */
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+/* How to target adjacent sibling elements */
+/* h3 + p::first-line {
+  color: red;
+} */
+
+
+
 /* footer p {
   font-size: 16px;
 } */
