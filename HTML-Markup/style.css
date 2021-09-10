@@ -104,9 +104,9 @@ li:last-child {
 }
 
 /* can use numbers or odd or even */
-li:nth-child(even) {
-  /* color: red; */
-}
+/* li:nth-child(even) {
+  color: red;
+} */
 
 /* Styling Links */
 a:link {
