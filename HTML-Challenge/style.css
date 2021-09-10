@@ -27,6 +27,7 @@ body {
 
 .price {
   font-size: 24px;
+  margin-bottom: 15px;
 }
 
 .shipping {
@@ -57,7 +58,7 @@ body {
 
 /* LINK INFO */
 .more-info-container {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .more-info {
@@ -73,7 +74,7 @@ body {
 }
 
 .colors {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .color {
@@ -102,6 +103,7 @@ body {
 
 .color-brown {
   background-color: brown;
+  margin-right: 0;
 }
 
 /* PRODUCT DETAILS */
