@@ -72,10 +72,16 @@ body {
   text-decoration: none;
 }
 
+.colors {
+  margin-bottom: 20px;
+}
+
 .color {
   background-color: #000;
   height: 22px;
   width: 22px;
+  display: inline-block;
+  margin-right: 5px;
 }
 
 .color-blue {
