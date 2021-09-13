@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 40px;
-  height: 80px;
+  height: 40px;
 }
 
 nav {
@@ -255,4 +255,18 @@ h1 {
 
 nav {
   float: right;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
