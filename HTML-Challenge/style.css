@@ -19,41 +19,45 @@ body {
 }
 
 .product-title {
-  background-color: rgb(165, 165, 165);
+  background-color: rgba(223, 223, 223, 0.897);
   text-align: center;
   font-size: 22px;
   text-transform: uppercase;
   padding: 15px 0;
 }
 
-.converse {
+.product-img {
   float: left;
 }
 
 .product-info {
   margin-top: 15px;
-  margin-left: 30px;
+  margin-left: 40px;
   float: left;
-  width: 275px;
+  width: 243px;
 }
 
 .product-details {
   margin-top: 15px;
+  margin-left: 40px;
   float: left;
-  width: 225px;
+  width: 243px;
 }
 
 .price {
   font-size: 24px;
   margin-bottom: 15px;
+  float: left;
 }
 
 .shipping {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
   color: #777;
   margin-bottom: 15px;
+  float: right;
+  margin-top: 8px;
 }
 
 .sale {
@@ -72,6 +76,7 @@ body {
 
 .description {
   margin-bottom: 15px;
+  clear: both;
 }
 
 /* LINK INFO */
@@ -92,7 +97,7 @@ body {
 }
 
 .colors {
-  margin-bottom: 15px;
+  margin-bottom: 0;
 }
 
 .color {
