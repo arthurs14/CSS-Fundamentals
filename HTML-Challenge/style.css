@@ -26,29 +26,20 @@ body {
   padding: 15px 0;
 }
 
-/* .product-img {
-  float: left;
-}
-
-.product-details {
-  margin-top: 15px;
-  margin-left: 40px;
-  float: left;
-  width: 243px;
-} */
 .product-list {
   display: flex;
   gap: 25px;
 }
 
 .product-info {
-  /* margin-top: 15px;
-  margin-left: 40px;
-  float: left;
-  width: 243px; */
-  /* display: flex;
-  flex-direction: column; */
   flex: 0 0 225px;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .product-details {
@@ -57,8 +48,6 @@ body {
 
 .price {
   font-size: 24px;
-  margin-bottom: 15px;
-  /* float: left; */
 }
 
 .shipping {
@@ -66,10 +55,6 @@ body {
   font-weight: bold;
   text-transform: uppercase;
   color: #777;
-  margin-bottom: 15px;
-  align-items: flex-start;
-  /* float: right; */
-  margin-top: 8px;
 }
 
 .sale {
@@ -88,7 +73,6 @@ body {
 
 .description {
   margin-bottom: 15px;
-  clear: both;
 }
 
 /* LINK INFO */
