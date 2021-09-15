@@ -25,13 +25,14 @@ body {
   padding: 15px 0;
 }
 
-.product-list {
+.container {
   display: flex;
-  gap: 25px;
+  gap: 30px;
 }
 
 .product-info {
-  flex: 0 0 225px;
+  flex: 1;
+  margin-top: 10px;
 }
 
 .product-price {
@@ -42,7 +43,8 @@ body {
 }
 
 .product-details {
-  flex: 0 0 225px;
+  flex: 1;
+  margin-top: 10px;
 }
 
 .price {
