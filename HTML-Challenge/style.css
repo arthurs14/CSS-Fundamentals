@@ -29,11 +29,6 @@ body {
   padding: 15px 0;
 }
 
-/* .container {
-  display: flex;
-  gap: 30px;
-} */
-
 .product-info {
   flex: 1;
   margin-top: 10px;
