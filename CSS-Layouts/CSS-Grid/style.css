@@ -313,6 +313,8 @@ footer {
   font-style: italic;
 }
 
+/* FLEXBOX LAYOUT */
+/* 
 .row {
   display: flex;
   align-items: flex-start;
@@ -326,11 +328,9 @@ article {
 }
 
 aside {
-  /* 
   flex-grow: 0;
   flex-shrink: 1;
   flex-basis: auto;
-  */
-
   flex: 0 0 300px;
-}
+} 
+*/
