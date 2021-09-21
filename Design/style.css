@@ -121,6 +121,9 @@ img {
 
 /* TESTIMONIAL */
 .testimonial-section {
+  background-color: #087f5b;
+  color: #fff;
+  padding: 24px;
 }
 
 .testimonial-box {
@@ -180,4 +183,6 @@ footer {
   /* 12 / 14 / 16 */
   margin-bottom: 48px;
   font-size: 14px;
+  /* contrast with white background */
+  color: #495057;
 }
