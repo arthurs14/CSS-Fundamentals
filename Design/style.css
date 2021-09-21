@@ -68,6 +68,8 @@ h2 {
 }
 
 .btn--small {
+  font-size: 14px;
+  padding: 8px 12px;
 }
 
 /* ------------------------ */
