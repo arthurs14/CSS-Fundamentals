@@ -48,7 +48,7 @@
         position: relative;
 
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         gap: 86px;
       }
 
@@ -95,6 +95,24 @@
         justify-content: center;
       }
 
+      .btn--left {
+        left: 0;
+
+        /* center-left within parent */
+        /* without using align-items: center */
+        top: 50%;
+        transform: translate(0, -50%);
+      }
+
+      .btn--right {
+        right: 0;
+
+        /* center-right within parent */
+        /* without using align-items: center */
+        top: 50%;
+        transform: translate(0, -50%);
+      }
+
       .btn-icon {
         height: 24px;
         width: 24px;
@@ -116,7 +134,7 @@
         <p class="testimonial-author">Maria de Almeida</p>
         <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
       </blockquote>
-      <button class="btn">
+      <button class="btn btn--left">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="btn-icon"
@@ -132,7 +150,7 @@
           />
         </svg>
       </button>
-      <button class="btn">
+      <button class="btn btn--right">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="btn-icon"
