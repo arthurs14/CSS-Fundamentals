@@ -51,7 +51,13 @@
         height: 100vh;
         position: relative;
 
-        background-image: url("./img/hero.jpg");
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url("./img/hero.jpg");
+        background-size: cover;
+        color: #fff;
       }
 
       .header-container {
@@ -75,6 +81,7 @@
         font-weight: 700;
         display: flex;
         justify-content: space-between;
+        /* background-image: linear-gradient(to right, red, blue); */
       }
 
       h1 {
