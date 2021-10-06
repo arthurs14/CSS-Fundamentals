@@ -9,15 +9,25 @@ body {
   color: #343a40;
   font-size: 24px;
   height: 100vh;
+  text-align: center;
+  font-weight: bold;
 
   display: grid;
   grid-template-columns: 80px 400px 1fr 250px;
   grid-template-rows: 80px 1fr;
 }
 
+nav,
+menu,
+section,
+main,
+aside {
+}
+
 nav {
   background-color: #343a40;
   grid-row: 1 / -1;
+  color: #fff;
 }
 
 menu {
