@@ -22,6 +22,7 @@ menu,
 section,
 main,
 aside {
+  padding-top: 24px;
 }
 
 nav {
