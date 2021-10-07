@@ -59,6 +59,9 @@ section {
   background-color: #e9ecef;
   padding: 40px;
 
+  /* 
+    How elements don't fit into container appear 
+  */
   overflow: scroll;
 
   display: flex;
